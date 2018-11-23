@@ -27,6 +27,20 @@ Or install it yourself as:
 
     $ gem install noty_flash
 
+
+Add noty_flash javascript into application.js:
+
+```
+//= require noty_flash
+//= require noty_ajax_handlers
+```
+
+Add noty CSS styles into applicaton.css:
+
+```
+*= require noty
+```
+
 ## Usage in Rails views
 
 In Ruby views to show every flashes with noty

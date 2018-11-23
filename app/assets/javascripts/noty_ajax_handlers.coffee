@@ -16,9 +16,9 @@ window.notyAjaxErrorHandler = (response) ->
   return if response.readyState == 0
   message = response.responseText || response.statusText
   console.error? "Ошибка загрузки #{message}"
-  NofyFlash.error message
+  NotyFlash.error message
 
 window.notyAjaxFailHanlder = (response) ->
   return if response.readyState == 0
   console.error? "Fail загрузки #{response}"
-  NofyFlash.error response
+  NotyFlash.error response

@@ -4,8 +4,8 @@
 TYPES = ['error', 'success', 'info', 'warning']
 TIMEOUT = 5000
 
-window.NofyFlash =
+window.NotyFlash =
   show: (type, message) -> new Noty(text: message, timeout: TIMEOUT, type: type).show()
 
 for type in TYPES
-  window.NofyFlash[type] = (message) -> @show(type, message)
+  window.NotyFlash[type] = (message) -> @show(type, message)
