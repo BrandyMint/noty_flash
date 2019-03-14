@@ -41,6 +41,8 @@ Add noty CSS styles into applicaton.css:
 *= require noty
 ```
 
+Add `helper NotyFlash::ApplicationHelper` to your `ApplicationController`
+
 ## Usage in Rails views
 
 In Ruby views to show every flashes with noty
