@@ -57,6 +57,10 @@ or
 
 > window.NofyFlash.error('message')
 
+## Other solutions
+
+* https://github.com/fakhir-shad/flash_notifier
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/dapi/noty_flash. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
