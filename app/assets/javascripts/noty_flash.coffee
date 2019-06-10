@@ -1,6 +1,3 @@
-#= require noty
-#
-
 TYPES = ['error', 'success', 'info', 'warning']
 TIMEOUT = 5000
 

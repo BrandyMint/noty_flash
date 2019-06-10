@@ -31,6 +31,7 @@ Or install it yourself as:
 Add noty_flash javascript into application.js:
 
 ```
+//= require noty
 //= require noty_flash
 //= require noty_ajax_handlers
 ```
